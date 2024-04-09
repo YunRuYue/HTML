@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <!-- 外部式 -->
+    <link rel="stylesheet" href="../css/样式.css">
+
+    <!-- 内部式 -->
+    <style>
+        p {
+            color: #f00;
+        }
+    </style>
+</head>
+
+<body>
+    <p>内部式 元素选择器</p>
+
+    <!-- 内联式 -->
+    <span style="color: #0f0;">内联式样式</span>
+
+    <h1>外部式 元素选择器</h1>
+
+    <p class="text_p text_size">类选择器</p>
+
+    <p id="text">id选择器</p>
+
+    <h2>合并选择器</h2>
+    <h3>合并选择器</h3>
+
+
+    <ul>
+        <li>后</li>
+        <li>代</li>
+        <li>选</li>
+        <p>我不是后代选择器</p>
+        <div>
+            <ol>
+                <li>择</li>
+                <li>器</li>
+            </ol>
+        </div>
+    </ul>
+
+    <div>
+        <p>我是子代选择器</p>
+        <ul>
+            <li>
+                <p>我不是子代选择器</p>
+            </li>
+        </ul>
+    </div>
+
+    <h4>我的相邻p兄弟是</h4>
+    <p>元素1</p>
+    <p>元素2</p>
+
+    <h5>我的所有p兄弟有</h5>
+    <p>11</p>
+    <p>21</p>
+    <div>我是div，我不是你的p兄弟</div>
+    <p>31</p>
+</body>
+
+</html>

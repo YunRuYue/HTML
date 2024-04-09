@@ -1,0 +1,23 @@
+.box1 {
+    width: 100px;
+    height: 100px;
+    background-color: #f00;
+    /* 相对定位 不脱离文档流 */
+    position: relative;
+    left: 50px;
+    top: 60px;
+
+    /* 绝对定位absolute 脱离文档流 */
+
+    /* 固定定位fixed 脱离文档流  */
+    
+}
+
+.box2 {
+    width: 20px;
+    height: 20px;
+    background-color: #00f;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+}

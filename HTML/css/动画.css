@@ -1,0 +1,26 @@
+div {
+    width: 200px;
+    height: 200px;
+    background-color: red;
+    /* 动画名 持续时间 速率 延持时间 次数  */
+    animation: myAnim 3s linear 0s infinite;
+}
+
+/* 鼠标经过暂停 */
+div:hover {
+    animation-play-state: paused;
+}
+
+@keyframes myAnim {
+    0% {
+        background-color: red;
+    }
+
+    50% {
+        background-color: blue;
+    }
+
+    100% {
+        background-color: red;
+    }
+}
